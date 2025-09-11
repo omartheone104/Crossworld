@@ -1,0 +1,7 @@
+{title:"My Crossword"}
+{desc:"This is my crossword"}
+{5x6}
+{AMP-JFOIJDS-ERFF}
+{--1--2--345-6}
+{1a:"Name of Prentiss"}
+{1d:"Color of sky"}
