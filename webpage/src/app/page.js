@@ -3,6 +3,22 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      <nav className="fixed top-0 left-0 border border-solid border-black dark:border-white flex space-x-4">
+        <Image
+              //className="dark:invert"
+              src="/vercel.svg"
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+        <a href="http://localhost:3000" className="hover:underline">Home</a>
+        <a className="hover:underline">Daily</a>
+        <a className="hover:underline">Browse</a>
+        <a className="hover:underline">Create</a>
+        <a className="hover:underline">Friends</a>
+        <a className="hover:underline">Profile</a>
+        <a href="https://www.balatrodle.com/" className="hover:underline">Vist Balatrodle!</a>
+      </nav>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           //className="dark:invert"
